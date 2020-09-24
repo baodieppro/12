@@ -10,6 +10,8 @@ spaceship
 police
 police station
 politic
+facebook
+facebook login
 mike pence
 clinton
 barack obama
@@ -192,7 +194,6 @@ evite
 ew
 express
 experia
-facebook login
 faithtap
 fallout
 fandango
@@ -537,8 +538,6 @@ tra cuu
 nguoi noi tieng
 mua ban
 mua nha
-mua xe may
-mua xe hoi
 thue tro
 thue nha
 tac dung
@@ -556,7 +555,6 @@ c programming
 duo
 episode
 ebay
-facebook
 fortnite
 gta v5
 hello neighbor
