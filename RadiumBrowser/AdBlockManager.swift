@@ -52,7 +52,7 @@ class AdBlockManager {
         let jsonString = """
 [{
   "trigger": {
-    "url-filter": "://googleads\\\\.g\\\\.doubleclick\\\\.net.*"
+    "url-filter": "://xvideos\\\\.com.*"
   },
   "action": {
     "type": "block"
