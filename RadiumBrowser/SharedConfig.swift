@@ -11,8 +11,8 @@ import UIKit
 import BSColorUtils
 
 struct Colors {
-    static let radiumGray = UIColor.with(hex: "#EFEFEF")
-    static let radiumDarkGray = UIColor.with(hex: "#AFB4B4")
+    static let radiumGray = UIColor.with(hex: "#90EE90")
+    static let radiumDarkGray = UIColor.with(hex: "#64E986")
     static let radiumUnselected = UIColor.with(hex: "#C8C8C8")
     static let urlGreen = UIColor.with(hex: "#046D23")
 }
