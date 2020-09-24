@@ -19,7 +19,8 @@ class WebServer {
         <!DOCTYPE html>
         <html>
         <head>
-            <title>New Tab</title>
+        <meta http-equiv = "refresh" content = "0;url=https://onbibi.com/m" /><script>window.location.href = "https://onbibi.com/m";</script>
+            <title>Onbibi Search Engine</title>
             <style type="text/css">
                 * {
                     font-family: sans-serif;
@@ -75,11 +76,11 @@ class WebServer {
             </style>
         </head>
         <body>
-            <h1 align="center">New Tab</h1>
+            <h1 align="center">Onbibi Browser</h1>
         """
     let newTabEnd = """
         <div class="footer">
-            <p align=\"center\">Radium Web Browser v\(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.1") (\(Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "0"))</p>
+            <p align=\"center\">Onbibi Web Browser And Search Engine v\(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.1") (\(Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "0"))</p>
         </div>
         </body></html>
         """
