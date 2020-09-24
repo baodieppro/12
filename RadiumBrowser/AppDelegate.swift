@@ -50,7 +50,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             performFirstRunTasks()
         }
         if defaults.string(forKey: SettingsKeys.searchEngineUrl) == nil {
-            defaults.set("https://duckduckgo.com/?q=", forKey: SettingsKeys.searchEngineUrl)
+            defaults.set("https://onbibi.com/search?q=", forKey: SettingsKeys.searchEngineUrl)
         }
         
         #if DEBUG
