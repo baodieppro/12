@@ -20,38 +20,6 @@ enum OptionsTitles: String {
     static let allValues: [OptionsTitles] = [.trackHistory]
 }
 
-enum SearchEngineTitles: String {
-    case duckduckgo = "DuckDuckGo"
-    case google = "Google"
-    case bing = "Bing"
-    case yahoo = "Yahoo"
-    
-    static let allValues: [SearchEngineTitles] = [.duckduckgo, .google, .bing, .yahoo]
-    
-    static func getUrl(title: SearchEngineTitles) -> String {
-        switch title {
-        case .duckduckgo:
-            return "https://duckduckgo.com/?q="
-        case .google:
-            return "https://google.com/search?q="
-        case .bing:
-            return "https://bing.com/search?q="
-        case .yahoo:
-            return "https://search.yahoo.com/search?p="
-        }
-    }
-}
-
-enum AdBlockingTitles: String {
-    case purchaseAdBlock = "Purchase Ad Blocking"
-    case restorePurchases = "Restore Purchases"
-    
-    case enableAdBlock = "Enable Ad Block"
-    
-    static let unpurchasedValues: [AdBlockingTitles] = [.purchaseAdBlock, .restorePurchases]
-    static let purchasedValues: [AdBlockingTitles] = [.enableAdBlock]
-}
-
 enum DeleteSectionTitles: String {
     case clearHistory = "Clear History"
     case clearCookies = "Clear Local Storage"
